@@ -4,8 +4,11 @@ Repository for the data analysis miniproject of the course _**Neuroscience: cell
 
 This repository contains a MATLAB and Python version of this project, as well as associated functions used for computations.
 
-This project is based on the published [dataset of single-cell recordings in awake mice](https://zenodo.org/records/7833080]) previously collected at LSENS, which resulted in the publication 
+This project is based on the published [dataset of single-cell recordings in awake mice](https://zenodo.org/records/7833080]) previously collected at LSENS, which resulted in the publication: 
 [Membrane potential dynamics of excitatory and inhibitory neurons in mouse barrel cortex during active whisker sensing](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0287174). 
+
+
+**Note: the  `dataviewer.py` script cannot be used currently**.
 
 ## Setting up
 ### Download
@@ -40,7 +43,8 @@ The repository should contain the following folders:
   - Then run: `jupyter lab`.
   - Open notebooks to start working on the project.
 
-  - To run the `dataviewer.py`, edit the file by replacing the location of `MiniProjectData.mat` to where your current .mat file is (i.e. full path).
+**Note**:
+-   <s>To run the `dataviewer.py`, edit the file by replacing the location of `MiniProjectData.mat` to where your current .mat file is (i.e. full path).</s>
 
 
     **Note about paths**:
