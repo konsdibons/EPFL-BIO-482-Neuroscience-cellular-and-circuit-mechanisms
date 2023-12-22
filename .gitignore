@@ -3,7 +3,7 @@
 __pycache__/*
 */.ipynb_checkpoints/*
 */.DS_Store
-*.pkl
+data/*.pkl
 .ipynb_checkpoints
 */data/*
 # eclude any __pycache__ directories and files in there
@@ -11,3 +11,5 @@ __pycache__/*
 */__pycache__/*
 # exclude all .pyc files
 *.pyc
+# include pkl files in results directory, so upload to github
+!results/*.pkl
